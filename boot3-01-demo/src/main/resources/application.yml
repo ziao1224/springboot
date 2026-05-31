@@ -1,0 +1,40 @@
+#1. k: v #k v 之间是空格区分
+#2. 属性有层级关系，使用下一行，空两个空格
+#3. 左侧对齐的代表同一层级的属性
+
+server:
+  port: 9999
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  data:
+    redis:
+      host: localhost
+      port: 6379
+person:
+  age: 18
+  birthday: 2026/05/31
+  name: zhangshan
+  like: true
+  child:
+    name: lisi
+    age: 10
+    birthday: 2026/05/31
+    text:
+      - abc
+      - aaa
+#    text:["skfasn","nsfknsl"]
+  dogs:
+    - name: sdlamfl
+      id: 161614
+    - name: xiaolan
+      id: 16
+  cats:
+    c1:
+      name: catcat
+      id: 36416
+    c2: {name: 小绿,id: 161616}
+
+
