@@ -1,0 +1,12 @@
+### Maven ###
+target/
+
+### IntelliJ IDEA ###
+.idea/workspace.xml
+.idea/shelf/
+.idea/tasks.xml
+.idea/httpRequests/
+
+### OS ###
+.DS_Store
+Thumbs.db
